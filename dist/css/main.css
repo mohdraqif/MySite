@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: white;
+    background: #fff;
     transition: all 0.28s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
