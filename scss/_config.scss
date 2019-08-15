@@ -1,11 +1,11 @@
-$primary-color: rgb(172, 172, 172);
+$primary-color: rgb(196, 195, 195);
 $secondary-color: rgb(238, 209, 78);
 $show-home-image: true;
-$home-image: url(../img/beautiful-city-daylight-210243.jpg);
-$background-opacity: 0.9;
+$home-image: url(../img/img1.jpg);
+$background-opacity: 0.86;
 
 @mixin easeOut {
-  transition: all 0.25s ease-out;
+  transition: all 0.28s ease-out;
 }
 
 @mixin background {
