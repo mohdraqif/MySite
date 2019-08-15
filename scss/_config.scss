@@ -1,5 +1,5 @@
-$primary-color: rgb(196, 195, 195);
-$secondary-color: rgb(238, 209, 78);
+$primary-color: rgb(39, 37, 37);
+$secondary-color: rgb(235, 195, 18);
 $show-home-image: true;
 $home-image: url(../img/img1.jpg);
 $background-opacity: 0.86;
@@ -26,6 +26,15 @@ $background-opacity: 0.86;
         background: rgba($primary-color, $background-opacity);
       }
     }
+  }
+}
+
+//Alternate text color
+@function set-text-color($color) {
+  @if(lightness($color) > 40) {
+    @return #000;
+  }@else {
+    @return #fff;
   }
 }
 
